@@ -91,6 +91,14 @@ public class P2_Judge {
 			++iterator;
 			System.out.println(String.format("%d. %s -> %d", iterator, kvp.getKey(), kvp.getValue()));
 		}
+		
+		// another way to number the keys of a map when using functional forEach:
+		
+// 		int[] count = {1};
+		
+// 		sortedIndividuals.entrySet().stream().forEach(e -> {
+// 			System.out.println(String.format("%d. %s -> %d", count[0]++, e.getKey(), e.getValue()));
+// 		});
 
 	}
 }
